@@ -1,0 +1,43 @@
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.field__wrapper {
+	margin-bottom: 10px;
+}
+
+.field__wrapper label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: bolder;
+}
+
+.field__wrapper input,
+.field__wrapper textarea,
+.field__wrapper select {
+	border: 1px solid rgba(0,0,0,0.2);
+	box-sizing: border-box;
+	box-shadow: inset 0px 1px 1px rgba(31, 32, 32, 0.08);
+	border-radius: 4px;
+	padding: 0.5rem 0.8rem;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+.field__wrapper input:focus,
+.field__wrapper textarea:focus,
+.field__wrapper select:focus {
+	border: 1px solid rgba(0,0,0,1);
+	outline: none;
+}
+
+.hide-controls,
+.hide-page {
+	display: none;
+}
+.show-controls,
+.show-page {
+	display: block;
+}
